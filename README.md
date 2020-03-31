@@ -6,7 +6,11 @@ Mobile max width: 375px
 
 Resposnive webpage, 12 columns with max width 1440px
 
+!!Always design for mobile first!!
+
 Header with h1, h2 & p tags
+
+Div container 
 
 Div id = team-builder, div id = calculator, div id = karma, div id = supervisor
 

@@ -3,6 +3,13 @@
    box-sizing: border-box;
 }
 
+/* For mobile phones */
+[class*="col-"] {
+	width: 100%;
+}
+
+@media only screen and (min-width: 375px){
+/* For desktop */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -15,5 +22,18 @@
 .col-10 {width: 83.33;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+}
 
+#container {
+	max-width: 1440px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+	padding: 10px;
+}
 
+#header {
+	grid-column: 1 / span 3; 
+	margin: auto;
+	text-align: center;
+}
